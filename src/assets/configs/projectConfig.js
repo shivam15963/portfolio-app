@@ -3,13 +3,14 @@ import {AiFillGithub, AiFillEye} from "react-icons/ai";
 
 import crypto_analyser from "../images/crypto-analyser.png"
 import weatherapi from "../images/weatherapi.png"
+import coincon from "../images/coincon.png"
 import agrishot from "../images/agrishot.png"
 
 import React from 'react'
 
 const projectConfig = [
     {
-        id: "project-2",
+        id: "project-3",
         title: "Crypto Analyser",
         links: [
             {
@@ -35,6 +36,35 @@ const projectConfig = [
         ],
         image: crypto_analyser,
         description: "Helps to search for information about various cryptocurrencies in real-time",
+        target: "_blank"
+    },
+    {
+        id: "project-2",
+        title: "Coin Convertor",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/shivam15963/coincon",
+                icon: <AiFillGithub/>,
+            },
+            {
+                name: "fork",
+                url: "https://github.com/shivam15963/coincon/fork",
+                icon: <BiGitRepoForked/>,
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/shivam15963/coincon/subscription",
+                icon: <AiFillEye/>,
+            },
+            {
+                name: "demo",
+                url: "https://coincon.netlify.app/",
+                icon: <BiLink/>,
+            }
+        ],
+        image: coincon,
+        description: "Helps to convert coins from one currency to another",
         target: "_blank"
     },
     {

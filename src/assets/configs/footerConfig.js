@@ -2,6 +2,7 @@ import {AiFillGithub} from "react-icons/ai";
 import {FaLinkedinIn} from "react-icons/fa";
 import {BsCodeSquare, BsFillPencilFill} from "react-icons/bs";
 import {RiFileInfoLine} from "react-icons/ri"
+import { MdEmail } from "react-icons/md";
 import React from "react";
 
 const footerConfig = {
@@ -36,10 +37,17 @@ const footerConfig = {
         },
         {
             id: "footer-4",
-            url: "https://drive.google.com/file/d/1BKrXi8z5Ol1z9ZMuZfeO7PNropUBVl3r/view?usp=sharing",
+            url: "https://drive.google.com/file/d/1Eoa9sg4tjfUAlfeIxeIWCf_wP6_2EHQQ/view?usp=sharing",
             className: "social-icon",
             target: "_blank",
             icon: <RiFileInfoLine size={50}/>
+        },
+        {
+            id: "footer-5",
+            url: "mailto:shivammehla1999@gmail.com?subject=Lets work on something together!",
+            className: "social-icon",
+            target: "_blank",
+            icon: <MdEmail size={50}/>
         }
     ]
 }

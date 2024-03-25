@@ -13,10 +13,11 @@ import {
     SiAmazondynamodb,
     SiKibana,
     SiWordpress,
-    SiAdobeillustrator,
     SiAdobephotoshop,
     SiSelenium
 } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 import {MdDataObject} from "react-icons/md";
 import {GrMysql} from "react-icons/gr";
 
@@ -65,8 +66,8 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <GrMysql size={50}/>,
-            text: "MySQL"
+            icon: <SiMongodb size={50}/>,
+            text: "Mongo DB"
         },
         {
             id: "skills-2",
@@ -113,8 +114,8 @@ const skillsConfig = {
         {
             id: "skills-9",
             className: "skill-icon",
-            icon: <SiAdobeillustrator size={50}/>,
-            text: "Adobe illustrator"
+            icon: <FaGithub size={50}/>,
+            text: "Github"
         },
         {
             id: "skills-10",

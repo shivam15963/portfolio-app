@@ -14,24 +14,25 @@ const homeConfig = {
         "Full Stack Developer",
         "Python Developer",
         "Implementation Specialist",
+        "Solutions Engineer",
         "Indian"
     ],
     about: {
-        start: "I've been working for over two years on various kinds of projects. " +
+        start: "I've been working for over three years on various kinds of projects. " +
             "I'm excited by learning new things, contributing to the software development community," +
             " and spreading the word of coding!",
-        exit: "I'm fluent at Python, SQL databases, AWS tools, and more, " +
+        exit: "I'm fluent at React, Python, databases, AWS tools, and much more, " +
             "with a deep interest in full stack development."
     },
     workTimeline: [
         {
             id: "work-2",
-            title: "Associate Implementation Engineer",
+            title: "Associate Engineer - M2",
             company: "Symphony Talent",
             description: "Worked on various tools and technologies to deliever the best products for the clients.",
-            date: "May 2021-present",
+            date: "May 2021-Present",
             icon: <DiCodeigniter/>,
-            tags: ["python", "react js", "mysql", "mulesoft", "selenium", "wordpress", "api's", "aws tools"]
+            tags: ["python", "react js", "mysql", "mulesoft", "node js", "mongo db", "rest api", "aws"]
         },
         {
             id: "work-1",
@@ -47,7 +48,7 @@ const homeConfig = {
             title: "Technical Content Writer",
             company: "GeeksForGeeks",
             description: "Wrote technical articles on various domains including AWS, Coding problems and frontend technologies",
-            date: "May 2020-Dec 2018",
+            date: "May 2020-Dec 2020",
             icon: <MdContentCopy/>,
             tags: ["data structures", "algorithms", "aws", "sass"]
         }
